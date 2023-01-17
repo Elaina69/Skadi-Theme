@@ -38,7 +38,7 @@ const observer = new MutationObserver((mutations) => {
     }
  });
  
- function accessSkadiThemeCSS(value) {
+ function accessElainaThemeCSS(value) {
     const root = document.documentElement;
     root.style.setProperty('--background', `url(${decodeURIComponent(value)})`);
  }
@@ -72,8 +72,9 @@ const observer = new MutationObserver((mutations) => {
           'afterbegin',
           '<link rel="stylesheet" href="https://static.staticsave.com/skaditheme/skadilol.css" />'
        );
+    document.querySelector('body').innerHTML += "<video src="+"'https://raw.githubusercontent.com/Roydevil/Elaina-theme/main/L2D/BG-L2d.mp4' style='position: absolute;top: 0;width: 1280px;z-index: -1;pointer-events: none;' autoplay loop muted></video>"
     console.clear();
-    console.log('Seggs Skadi :3');
+    console.log('Seggs Elaina :3');
     console.log('By Elaina Da Catto');
     console.log('Meow ~~~');
  });
