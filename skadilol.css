@@ -3,19 +3,19 @@
 /* Meow :3 */
 
 /* Imports */
-@font-face {
+/* @font-face {
    font-family: 'aegirseaborn';
    src: url('https://raw.githubusercontent.com/Roydevil/Skadi-Theme/main/AegirSeaborn.ttf') format('truetype');
    font-weight: normal;
    font-style: normal;
    font-display: swap;
-}
+} */
 
 :root {
    /* Font */
-   --font-display: 'aegirseaborn', sans-serif !important;
+   /* --font-display: 'aegirseaborn', sans-serif !important;
    --font-body: 'aegirseaborn', sans-serif !important;
-
+*/
 
    /* Client Background */
    /* 1055 x 718 */
@@ -23,6 +23,7 @@
    --background: url(''); 
 }
 
+/* Code by @PrincessAkira*/
 
 /* UI */
 .LcOverview__NavBarSlot-sc-1epub3v-3 {
@@ -209,6 +210,8 @@
    margin: 0;
 }
 
+/* Code by @Elaina Da Catto */
+
 div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    border: 0;
 }
@@ -226,6 +229,29 @@ div[class="style-profile-backdrop-component ember-view"] {
 }
 
 div[class="store-backdrop"] {
+   background: var(--background) !important;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: transparent !important;
+
+}
+
+div[class="background"] {
+   background: var(--background) !important;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: transparent !important;
+
+}
+
+div[class="ranked-intro-background"] {
+   display: none;
+
+}
+
+div[class="stats-backdrop"] {
    background: var(--background) !important;
    background-position: center;
    background-repeat: no-repeat;
